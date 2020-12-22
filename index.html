@@ -29,15 +29,15 @@ body {font-family: "Lato", sans-serif;}
   text-align: center;
 }
 
-#tutaina {background-color:red;}
+#tutaina {background-color:maroon;}
 #burrito {background-color:green;}
 #vamos {background-color:blue;}
 #anton {background-color:orange;}
+#campana {background-color:pink;}
+
 </style>
 </head>
 <body>
-
-<p>Click on the buttons inside the tabbed menu:</p>
 
 <div id="tutaina" class="tabcontent">
   <h1>Tutaina</h1>
@@ -55,10 +55,16 @@ body {font-family: "Lato", sans-serif;}
   <h1>Anton Tiruliruliru</h1>
 </div>
 
+<div id="campana" class="tabcontent">
+  <h1>Campana Sobre Campana</h1>
+</div>
+
 <button class="tablink" onclick="openCity('tutaina', this, 'red')" id="defaultOpen">Tutaina</button>
 <button class="tablink" onclick="openCity('burrito', this, 'green')">Burrito Sabanero</button>
 <button class="tablink" onclick="openCity('vamos', this, 'blue')">Vamos Pastores</button>
 <button class="tablink" onclick="openCity('anton', this, 'orange')">Anton Tiruliruliru</button>
+<button class="tablink" onclick="openCity('campana', this, 'pink')">Campana Sobre Campana</button>
+
 
 <script>
 function openCity(cityName,elmnt,color) {
