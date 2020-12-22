@@ -29,40 +29,36 @@ body {font-family: "Lato", sans-serif;}
   text-align: center;
 }
 
-#London {background-color:red;}
-#Paris {background-color:green;}
-#Tokyo {background-color:blue;}
-#Oslo {background-color:orange;}
+#tutaina {background-color:red;}
+#burrito {background-color:green;}
+#vamos {background-color:blue;}
+#anton {background-color:orange;}
 </style>
 </head>
 <body>
 
 <p>Click on the buttons inside the tabbed menu:</p>
 
-<div id="London" class="tabcontent">
+<div id="tutaina" class="tabcontent">
   <h1>Tutaina</h1>
-  <p>London is the capital city of England.</p>
 </div>
 
-<div id="Paris" class="tabcontent">
-  <h1>Paris</h1>
-  <p>Paris is the capital of France.</p> 
+<div id="burrito" class="tabcontent">
+  <h1>Burrito Sabanero</h1>
 </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h1>Tokyo</h1>
-  <p>Tokyo is the capital of Japan.</p>
+<div id="vamos" class="tabcontent">
+  <h1>Vamos Pastores</h1>
 </div>
 
-<div id="Oslo" class="tabcontent">
-  <h1>Oslo</h1>
-  <p>Oslo is the capital of Norway.</p>
+<div id="anton" class="tabcontent">
+  <h1>Anton Tiruliruliru</h1>
 </div>
 
-<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
-<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
-<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+<button class="tablink" onclick="openCity('tutaina', this, 'red')" id="defaultOpen">Tutaina</button>
+<button class="tablink" onclick="openCity('burrito', this, 'green')">Burrito Sabanero</button>
+<button class="tablink" onclick="openCity('vamos', this, 'blue')">Vamos Pastores</button>
+<button class="tablink" onclick="openCity('anton', this, 'orange')">Anton Tiruliruliru</button>
 
 <script>
 function openCity(cityName,elmnt,color) {
